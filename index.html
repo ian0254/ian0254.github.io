@@ -13,13 +13,16 @@
       href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800&amp;display=swap"
     />
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Links-icons.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
   <body style="height: 600px">
     <nav class="navbar navbar-expand-md bg-body py-3" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#"
-          ><span class="text-light" style="font-family: 'Work Sans', sans-serif"
+          ><span
+            class="text-light"
+            style="font-family: 'Work Sans'; font-size: 22px"
             >Ian Contreras</span
           ></a
         ><button
@@ -33,26 +36,49 @@
         <div class="collapse navbar-collapse" id="navcol-3">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#">About</a>
+              <a
+                class="nav-link active"
+                href="#"
+                style="font-family: 'Work Sans', sans-serif"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
+              <a class="nav-link" href="#" style="font-family: 'Work Sans'"
+                >Experience</a
+              >
             </li>
-            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item" style="font-family: 'Work Sans'">
+              <a class="nav-link" href="#" style="font-family: 'Work Sans'"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item" style="font-family: 'Work Sans'">
+              <a class="nav-link" href="#" style="font-family: 'Work Sans'"
+                >Contact</a
+              >
+            </li>
           </ul>
         </div>
       </div>
     </nav>
     <section id="profile">
-      <div class="section-picture-container">
+      <div class="section__pic-container">
         <img src="assets/img/Untitled-1-removebg-preview.png" />
       </div>
-      <div class="section-text">
-        <p class="section-text-p1">How are you? I'm</p>
+      <div class="section__text">
+        <p class="section__text__p1">How are you? I'm</p>
         <h1 class="title">Ian Contreras</h1>
+        <p class="section__text__p2">Website Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" type="button">Download CV</button>
+          <button class="btn btn-color-1" type="button">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img src="assets/img/linkedin.png" class="icon" />
+          <img src="assets/img/github.png" class="icon" />
+        </div>
       </div>
-      <p class="section-text-p2">Website Developer</p>
     </section>
     <footer class="text-center bg-dark">
       <div class="container text-white py-4 py-lg-5">
